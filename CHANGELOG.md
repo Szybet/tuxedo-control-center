@@ -1,5 +1,9 @@
 # Changelog
 
+## [] - UNRELEASED
+### Added
+- Additional ID for Gemini 17 Gen4 Intel devices
+
 ## [2.1.22] - 2025-12-19
 ### Added
 - Quirk for Gemini Gen4 Intel using CPU EPP `performance` instead of default `balance_performance`
