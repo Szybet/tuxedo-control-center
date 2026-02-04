@@ -17,9 +17,7 @@
  * along with TUXEDO Control Center.  If not, see <https://www.gnu.org/licenses/>.
  */
 export interface ITccAutosave {
-    displayBrightness: number;
 }
 
 export const defaultAutosave: ITccAutosave = {
-    displayBrightness: 100
 };
