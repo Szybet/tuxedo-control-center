@@ -5,6 +5,10 @@
 - Additional ID for Gemini 17 Gen4 Intel devices
 - Desktop shortcut to TUXEDO category
 
+### Fixed
+- Non used platform profiles for InfinityBook Max Gen10 AMD
+- Accidental wakeup of dGPU from reading display brightness in on-demand
+
 ## [2.1.22] - 2025-12-19
 ### Added
 - Quirk for Gemini Gen4 Intel using CPU EPP `performance` instead of default `balance_performance`
