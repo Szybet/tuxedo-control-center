@@ -540,6 +540,7 @@ export class TuxedoControlCenterDaemon extends SingleProcess {
         dmiSKUDeviceMap.set('SIRIUS1601', TUXEDODevice.SIRIUS1601);
         dmiSKUDeviceMap.set('SIRIUS1602', TUXEDODevice.SIRIUS1602);
         dmiSKUDeviceMap.set('GEMINI17I04', TUXEDODevice.GEMINI17I04);
+        dmiSKUDeviceMap.set('GEMINIGEN4I', TUXEDODevice.GEMINI17I04);
 
         const skuMatch = dmiSKUDeviceMap.get(productSKU);
 
