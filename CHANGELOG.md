@@ -1,6 +1,6 @@
 # Changelog
 
-## [] - UNRELEASED
+## [2.1.23] - 2026-02-05
 ### Added
 - Additional ID for Gemini 17 Gen4 Intel devices
 - Desktop shortcut to TUXEDO category
