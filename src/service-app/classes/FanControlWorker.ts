@@ -89,7 +89,7 @@ export class FanControlWorker extends DaemonWorker {
     };
 
     constructor(tccd: TuxedoControlCenterDaemon) {
-        super(1000, tccd);
+        super(175, tccd);
     }
 
     public async onStart(): Promise<void> {
