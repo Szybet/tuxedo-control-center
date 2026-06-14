@@ -25,7 +25,7 @@
                     "options": {
                         "outputPath": "dist/tuxedo-control-center/ng-app",
                         "index": "src/ng-app/index.html",
-                        "polyfills": ["zone.js", "src/ng-app/process.ts"],
+                        "polyfills": ["zone.js", "src/ng-app/process.ts", "src/ng-app/polyfills.ts"],
                         "tsConfig": "tsconfig.app.json",
                         "aot": true,
                         "localize": true,
@@ -90,7 +90,7 @@
                     "builder": "@angular-devkit/build-angular:karma",
                     "options": {
                         "main": "src/ng-app/test.ts",
-                        "polyfills": ["zone.js", "src/ng-app/process.ts"],
+                        "polyfills": ["zone.js", "src/ng-app/process.ts", "src/ng-app/polyfills.ts"],
                         "tsConfig": "tsconfig.spec.json",
                         "karmaConfig": "karma.conf.js",
                         "assets": ["src/ng-app/favicon.ico", "src/ng-app/assets"],
@@ -119,5 +119,8 @@
                 }
             }
         }
+    },
+    "cli": {
+      "analytics": false
     }
 }

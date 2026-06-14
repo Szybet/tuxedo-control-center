@@ -21,6 +21,10 @@ echo "Clean complete."
 echo "--- Installing dependencies with legacy-peer-deps ---"
 npm install --legacy-peer-deps
 
+# --- FIX: Ensure @angular/localize is installed with correct version ---
+echo "--- Ensuring @angular/localize and typescript are installed ---"
+npm install @angular/localize@21.2.5 typescript@5.9.2 --save-dev --legacy-peer-deps
+
 # --- FIX: Downgrade @types/ms to stay compatible with Angular 10's TypeScript version ---
 echo "--- Patching @types/ms for TS compatibility ---"
 npm install @types/ms@0.7.31 --save-dev --save-exact --legacy-peer-deps
@@ -28,7 +32,7 @@ npm install @types/ms@0.7.31 --save-dev --save-exact --legacy-peer-deps
 # 3. Set environment and Build
 echo "--- Building project ---"
 export NODE_OPTIONS=--openssl-legacy-provider
-npm run build
+npm run build-prod
 
 # 4. Define paths
 SOURCE_BIN="./dist/tuxedo-control-center/data/service/tccd"

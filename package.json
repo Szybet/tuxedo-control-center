@@ -68,7 +68,6 @@
         "@angular/compiler": "21.2.5",
         "@angular/core": "21.2.5",
         "@angular/forms": "21.2.5",
-        "@angular/localize": "21.2.5",
         "@angular/platform-browser": "21.2.5",
         "@angular/platform-browser-dynamic": "21.2.5",
         "@angular/router": "21.2.5",
@@ -100,10 +99,12 @@
         "@angular/common": "21.2.5",
         "@angular/compiler-cli": "21.2.5",
         "@angular/language-service": "21.2.5",
+        "@angular/localize": "^21.2.5",
         "@angular/material": "21.2.3",
         "@biomejs/biome": "2.4.8",
         "@types/jasmine": "6.0.0",
         "@types/jasminewd2": "2.0.13",
+        "@types/ms": "0.7.31",
         "@types/node": "24.10.2",
         "@yao-pkg/pkg": "6.14.1",
         "angular-gauge": "5.0.0",
@@ -122,6 +123,7 @@
         "patch-package": "8.0.1",
         "prettier": "3.8.1",
         "tsx": "4.21.0",
+        "typescript": "^5.9.2",
         "xliff-simple-merge": "1.3.0"
     },
     "overrides": {
