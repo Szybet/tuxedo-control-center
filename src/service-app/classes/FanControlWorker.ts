@@ -76,7 +76,7 @@ export class FanControlWorker extends DaemonWorker {
     private nrTempsAvailable: number;
 
     constructor(tccd: TuxedoControlCenterDaemon, tuxedoDevice: TUXEDODevice) {
-        super(1000, 'FanControlWorker', tccd);
+        super(175, 'FanControlWorker', tccd);
         this.tuxedoDevice = tuxedoDevice;
         this.updateDbusData();
     }
